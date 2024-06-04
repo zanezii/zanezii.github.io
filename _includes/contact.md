@@ -1,7 +1,7 @@
 <div class="row g-5 mb-5">
   <div>
     <h2 style="margin: 60px 0px 10px;">Contact</h2>
-    {% for contact in site.data.settings.contacts %}
+    {% for contact in site.data.contacts.main %}
     <div class="row g-5 mb-5">
       <div class="col-md-6">
         

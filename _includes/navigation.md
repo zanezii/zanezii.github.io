@@ -3,9 +3,9 @@
     <div id="myLinks">
         {% for link in site.data.navigation.main %}
         {% if link.right %}
-          <a class="normal right" href="{{ link.url }}">{{ link.title }}</a>
-          {% else %}
-          <a class="normal" href="{{ link.url }}">{{ link.title }}</a>
+          <a class="normal right" id={{link.toggle}} href="{{ link.url }}">{{ link.title }}</a>
+        {% else %}
+          <a class="normal" id={{link.toggle}} href="{{ link.url }}">{{ link.title }}</a>
         {% endif %}
       {% endfor %}    
     </div>
@@ -14,16 +14,6 @@
       <i class="fa fa-bars"></i>
     </a>
 </div>
-
-<script type="text/javascript">
-    function toggle_vis(id) {
-        var e = document.getElementById(id);
-        if (e.style.display == 'none')
-            e.style.display = 'inline';
-        else
-            e.style.display = 'none';
-    }
-</script>
   
 <script>
     function myFunction() {

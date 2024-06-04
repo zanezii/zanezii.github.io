@@ -1,52 +1,38 @@
 main:
-  - title: Reliable trajectory prediction in scene fusion based on spatio-temporal Structure Causal Model
-    authors: <strong><u>Jianmin Liu</u></strong>; Hui Lin*; Xiaoding Wang;  Sahil Garg*; Mohammad Mehedi Hassan(*Corresponding authors)
-    journal_short: INFFUS
-    journal: Information Fusion <strong>(INFFUS)</strong>, 2024.
-    pdf: https://doi.org/10.1016/j.inffus.2024.102309
+  - title: 'Fed-PEMC: A Privacy-Enhanced Federated Deep Learning Algorithm for Consumer Electronics in Mobile Edge Computing'
+    authors: Qingxin Lin; Shui Jiang; <strong><u>Zihang Zhen*</u></strong>; Tianchi Chen; Chenxiang Wei; Hui Lin
+    journal_short: IEEE TCE
+    journal: IEEE Transactions on Consumer Electronics <strong>(IEEE TCE)</strong>, 2024.
+    pdf: ./assets/files/Fed-PEMC-ieeetce.pdf
+    doi: https://doi.org/10.1109/tce.2024.3351648
     bibtex: | 
-            @article{liu2024reliable,
-              title={Reliable trajectory prediction in scene fusion based on spatio-temporal Structure Causal Model},
-              author={Liu, Jianmin and Lin, Hui and Wang, Xiaoding and Wu, Lizhao and Garg, Sahil and Hassan, Mohammad Mehedi},
-              journal={Information Fusion},
-              volume={102},
-              pages={102309},
+            @article{10384805,
+            author={Lin, Qingxin and Jiang, Shui and Zhen, Zihang and Chen, Tianchi and Wei, Chenxiang and Lin, Hui},
+            journal={IEEE Transactions on Consumer Electronics}, 
+            title={Fed-PEMC: A Privacy-Enhanced Federated Deep Learning Algorithm for Consumer Electronics in Mobile Edge Computing}, 
+            year={2024},
+            volume={70},
+            number={1},
+            pages={4073-4086}
+            }
+    image: ./assets/teaser/Fed-PEMC-ieeetce.gif
+    notes: SCI-Q2,IF 4.3
+
+  - title: A Dynamic State Sharding Blockchain Architecture for Scalable and Secure Crowdsourcing Systems
+    authors: <strong><u>Zihang Zhen</u></strong>; Xiaoding Wang; Hui Lin; Sahil Garg; Prabhat Kumar; M Shamim Hossain
+    journal_short: JNCA
+    journal: Journal of Network and Computer Applications <strong>(JNCA)</strong>, 2023.
+    pdf: ./assets/files/dssbd-jnca.pdf
+    doi: https://doi.org/10.1016/j.jnca.2023.103785
+    bibtex: | 
+            @article{zhen2024dynamic,
+              title={A dynamic state sharding blockchain architecture for scalable and secure crowdsourcing systems},
+              author={Zhen, Zihang and Wang, Xiaoding and Lin, Hui and Garg, Sahil and Kumar, Prabhat and Hossain, M Shamim},
+              journal={Journal of Network and Computer Applications},
+              volume={222},
+              pages={103785},
               year={2024},
               publisher={Elsevier}
             }
-    image: ./assets/teaser/inffus-causal.png
-    notes: SCI-1区
-
-  - title: A Multi-Modal Spatial-Temporal Model for Accurate Motion Forecasting with Visual Fusion
-    authors: Xiaoding Wang; <strong><u>Jianmin Liu</u></strong>; Hui Lin*; Sahil Garg*; Mubarak Alrashoud (*Corresponding authors)
-    journal_short: INFFUS
-    journal: Information Fusion <strong>(INFFUS)</strong>, 2024.
-    pdf: https://doi.org/10.1016/j.inffus.2023.102046
-    bibtex: | 
-            @article{wang2024multi, 
-              title={A multi-modal spatial--temporal model for accurate motion forecasting with visual fusion},
-              author={Wang, Xiaoding and Liu, Jianmin and Lin, Hui and Garg, Sahil and Alrashoud, Mubarak},
-              journal={Information Fusion},
-              volume={102},
-              pages={102046},
-              year={2024},
-              publisher={Elsevier}
-            }
-    image: ./assets/teaser/inffus-motion.png
-    notes: SCI-1区
-
-  - title: "GSAA: A Novel Graph Spatiotemporal Attention Algorithm for Smart City Traffic Prediction"
-    authors: <strong><u>Jianmin Liu</u></strong>; Xiaoding Wang;  Hui Lin*; Feng Yu (*Corresponding authors)
-    journal_short: ACM-TOSN
-    journal: ACM Transactions on Sensor Networks <strong>(TOSN)</strong>, 2023.
-    pdf: https://doi.org/10.1145/3631608
-    bibtex: |
-            @article{liu2023gsaa,
-            title={GSAA: A Novel Graph Spatiotemporal Attention Algorithm for Smart City Traffic Prediction},
-            author={Liu, Jianmin and Wang, Xiaoding and Lin, Hui and Yu, Feng},
-            journal={ACM Transactions on Sensor Networks},
-            year={2023},
-            publisher={ACM New York, NY}
-            }
-    image: ./assets/teaser/acm-tosn.png 
-    notes: CCF-B
+    image: ./assets/teaser/dssbd-jnca.jpg
+    notes: SCI-Q1,CCF-C,IF 8.7

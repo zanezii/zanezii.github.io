@@ -26,7 +26,17 @@
   <link rel="stylesheet" href="./assets/css/nav.css">
   <link rel="stylesheet" href="./assets/css/map.css">
   <link rel="stylesheet" href="./assets/css/footer.css">
-  <script src="./assets/js/copy2clipboard.js"></script>
+  <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?8ca72a195cd64203138bef7e39f3d49f";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+  </script>
+  <script type="text/javascript" src="./assets/js/copy2clipboard.js"></script>
+  <script type="text/javascript" src="./assets/js/showmore.js"></script>
   <script src="./assets/js/github-stars.js"></script>
   <script type="text/javascript" src="./assets/js/jquery.js"></script>
   <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>

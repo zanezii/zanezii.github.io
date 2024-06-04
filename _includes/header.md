@@ -6,11 +6,12 @@
   <h1>{{ site.title }}</h1>
 
   {% if site.position %}
-  <position style="font-size:1.10rem;">{{ site.position }}</position>
+  {{ site.position }}
   <br>
   {% endif %}
   {% if site.affiliation %}
-  <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+  <!-- <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a> -->
+  <position style="font-size:1.10rem;">{{ site.affiliation }}</position>
   <br>
   {% endif %}
   {% if site.email %}
@@ -33,6 +34,12 @@
 
   {% if site.link_type == 'icon' %}
   <div class="social-icons">
+    {% if site.orcid_link %}
+    <a style="margin: 0 5px 0 0" href="{{ site.orcid_link }}">
+      <i class="fa-brands fa-orcid"></i>
+    </a>
+    {% endif %}
+
     {% if site.google_scholar %}
     <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
       <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
@@ -58,8 +65,14 @@
     {% endif %}
 
     {% if site.twitter %}
-    <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
+    <a style="margin: 0 5px 0 0" href="{{ site.twitter }}">
       <i class="fab fa-x-twitter"></i>
+    </a>
+    {% endif %}
+
+    {% if site.email_to %}
+    <a style="margin: 0 0 0 0" href="{{ site.email_to }}">
+      <i class="fa-solid fa-envelope"></i>
     </a>
     {% endif %}
   </div>
