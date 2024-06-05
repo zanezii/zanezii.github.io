@@ -1,13 +1,4 @@
 
-  // function copyToClipboard(content) {
-  //   navigator.clipboard.writeText(content)
-  //     .then(() => {
-  //       alert('已复制到剪贴板');
-  //     })
-  //     .catch((error) => {
-  //       console.error('复制失败:', error);
-  //     });
-  // }
 function copyToClipboard(textToCopy) {
   // 尝试使用navigator.clipboard.writeText，这是现代浏览器推荐的方法
   if (navigator.clipboard && navigator.clipboard.writeText) {

@@ -24,5 +24,15 @@
             });
         });
       </script> -->
+      <script>  
+      // 当前流程是执行->跳转，需要跳转->执行
+          $(document).ready(function(){
+            $("#navbarToggle").click(function(event){
+                // event.preventDefault(); // 阻止链接的默认行为
+                console.log("navbarToggle clicked");
+                toggle_vis('newsmore');
+            });
+        });
+      </script>
   </body>  
 </html>

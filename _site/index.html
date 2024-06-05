@@ -152,7 +152,7 @@
     
 
     
-    <a style="margin: 0 0 0 0" href="mailto://zzihang@foxmail.com">
+    <a style="margin: 0 0 0 0" href="mailto:zzihang@foxmail.com">
       <i class="fa-solid fa-envelope"></i>
     </a>
     
@@ -358,7 +358,7 @@ pages={4073-4086}
     
         <div>
           <br>
-          <a>Copyright © 2024 -- by Zihang Zhen.</a>
+          <a>Copyright © 2024 by Zihang Zhen.</a>
         </div>
         
   <div style="font: 12px/1.2 Crimson Pro, serif">
@@ -383,5 +383,15 @@ pages={4073-4086}
             });
         });
       </script> -->
+      <script>  
+      // 当前流程是执行->跳转，需要跳转->执行
+          $(document).ready(function(){
+            $("#navbarToggle").click(function(event){
+                // event.preventDefault(); // 阻止链接的默认行为
+                console.log("navbarToggle clicked");
+                toggle_vis('newsmore');
+            });
+        });
+      </script>
   </body>  
 </html>
