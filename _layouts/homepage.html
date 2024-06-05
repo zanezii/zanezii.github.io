@@ -14,25 +14,5 @@
       {% include_relative _layouts/clustrmap.html %}
       {% include footer.md %}
       <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-      <!-- <script>
-        // 通过ID navbarToggle 定位,绑定了一个点击事件
-        $(document).ready(
-          function(){
-            $("#navbarToggle").click(function(){
-              console.log("navbarToggle");
-              toggle_vis('newsmore');
-            });
-        });
-      </script> -->
-      <script>  
-      // 当前流程是执行->跳转，需要跳转->执行
-          $(document).ready(function(){
-            $("#navbarToggle").click(function(event){
-                // event.preventDefault(); // 阻止链接的默认行为
-                console.log("navbarToggle clicked");
-                toggle_vis('newsmore');
-            });
-        });
-      </script>
   </body>  
 </html>

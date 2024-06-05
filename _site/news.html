@@ -168,7 +168,7 @@
 
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
-<ul>
+<ul id="newsList">
   <!--设置visible item number -->
   
   
@@ -195,11 +195,9 @@
   
   
   
-  <li><a href="javascript:toggle_vis('newsmore')">Show More</a></li>
-</ul>
+  <li id="toggleLink"><a href="javascript:toggle_vis('newsmore')">Show More</a></li>
 
-<div id="newsmore" style="display:none">
-  <ul>
+  <div id="newsmore" style="display:none">
     
     
     
@@ -231,9 +229,10 @@
     <li><strong>[Apr. 2021]</strong> I have obtained the admission qualification for a Master's degree in Software Engineering at <strong>FJNU</strong>.</li>
     
     
-    <li><a href="javascript:toggle_vis('newsmore')">Show Less</a></li>
-  </ul>
-</div>
+  </div>  
+</ul>
+
+
 
     </section>
       </div>

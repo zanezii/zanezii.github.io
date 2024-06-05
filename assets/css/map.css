@@ -4,9 +4,10 @@
     left: 0;
     width: 300px; /* 设置div的宽度 */
     height: 300px; /* 设置div的高度 */
-    margin-bottom: 0pt;
-    margin-left: 0%;
+    margin: 0;
+    padding: 0;
     text-align: center;
+    box-sizing: border-box; /* 确保padding和border不会影响宽度和高度 */
 }
 
 /* 当屏幕宽度小于1200px时隐藏地图容器 */
