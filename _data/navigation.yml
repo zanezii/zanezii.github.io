@@ -1,0 +1,30 @@
+main:
+  - title: "Index"
+    url: ./
+    toggle: none
+
+  - title: "News"
+    url: ./news
+    toggle: navbarToggle
+
+  - title: "Publications"
+    url: ./publications
+    toggle: none
+
+  # - title: "Contact"
+  #   url: ./contact 
+  #   toggle: none
+  #   right: true 
+
+  #- title: "Services"
+  #  url: ./#services
+  #  toggle: none  
+
+  #- title: "Talks"
+  #  url: ./#invited-talks
+  #  toggle: none  
+
+  #- title: "Teaching"
+  #  url: ./#teaching
+  #  toggle: none  
+

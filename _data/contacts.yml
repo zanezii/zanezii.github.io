@@ -1,0 +1,2 @@
+main:
+- {name: 'Jianmin Liu', title: 'Master Student', department: 'College of Computer and Cyber Security', institution: 'Fujian Normal University', institution_address: 'FUZHOU, CHINA', phone: '(000) 000-0000', email: 'laujianmin@foxmail.com', office: 'Science Building #18', image: 'assets/img/contact.png'}

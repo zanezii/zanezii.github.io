@@ -1,0 +1,17 @@
+<div id="map-container">
+<!-- ClustrMaps 地图代码 -->
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=141313&w=300&t=n&d=X1hE1r5O27mChe6EsSHp4RTz-niIHZKgJQQ2nT5mJ5k&co=ffffff&cmo=002d72&cmn=2dad2d'></script>
+
+<!-- 最后更新日期 -->
+{% if site.enable_last_update %}
+        <small>Last Update:
+            <script>
+                const monthNames = ["January", "Februray", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
+                ];
+                var modiDate = new Date(document.lastModified);
+                var showAs = modiDate.getDate() + ". " + monthNames[modiDate.getMonth()] + " " + modiDate.getFullYear();
+                document.write(showAs);
+            </script>
+        </small> 
+        {% endif %}
+</div>

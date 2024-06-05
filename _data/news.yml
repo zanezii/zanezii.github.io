@@ -1,0 +1,27 @@
+main:
+  - date: Jun. 2024
+    msg: I have obtained a master's degree in software engineering from <strong>FJNU</strong>.
+
+  - date: May. 2024
+    msg: I gave a <a href=https://mp.weixin.qq.com/s/5C3USyDf5AYty4OVAyflPQ>speech</a> and shared my PhD application experience with the junior.
+  
+  - date: Mar. 2024
+    msg: I have successfully passed the <strong>IELTS Exam</strong> with an average score of 6.5. 
+
+  - date: Jan. 2024
+    msg: Our paper on privacy protection in federated learning has been accepted by <strong>IEEE TCE</strong>.
+
+  - date: Nov. 2023
+    msg: Our paper on improving blockchain performance has been accepted by <strong>JNCA</strong>.
+
+  - date: Sep. 2023
+    msg: I gave a full-English speech at the <a href=http://software.hrbeu.edu.cn/2023/0927/c12241a316348/page.htm>GPC2023&ICPCSEE2023</a> hosted by HRBEU.
+
+  - date: Jun. 2023
+    msg: I have obtained the <strong>Software Copyright</strong> of Dynamic State Sharded Blockchain Simulator.
+
+  - date: May. 2022
+    msg: I have obtained the internship qualification for <strong>Ruijie Network</strong> in embedded software development.
+
+  - date: Apr. 2021
+    msg: I have obtained the admission qualification for a Master's degree in Software Engineering at <strong>FJNU</strong>.
