@@ -1,6 +1,6 @@
 main:
   - title: 'Fed-PEMC: A Privacy-Enhanced Federated Deep Learning Algorithm for Consumer Electronics in Mobile Edge Computing'
-    authors: Qingxin Lin; Shui Jiang; <strong><u>Zihang Zhen*</u></strong>; Tianchi Chen; Chenxiang Wei; Hui Lin
+    authors: Qingxin Lin; Shui Jiang; <strong><u>Zihang Zhen</u></strong>; Tianchi Chen; Chenxiang Wei; Hui Lin
     journal_short: IEEE TCE
     journal: IEEE Transactions on Consumer Electronics <strong>(IEEE TCE)</strong>, 2024.
     pdf: ./assets/files/Fed-PEMC-ieeetce.pdf
