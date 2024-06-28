@@ -1,16 +1,10 @@
 main:
-  - date: Jun. 2024
-    msg: I got an invitation to be a peer reviewer for the <a href=https://www.editorialmanager.com/comcom/Default.aspx>ComCom</a>.
-
   - date: May. 2024
     msg: I gave a <a href=https://ccs.fjnu.edu.cn/fd/ac/c17036a392620/page.htm>speech</a> and shared my PhD application experience with the junior.
   
   - date: Jan. 2024
     msg: Our paper on privacy protection in federated learning has been accepted by <strong>IEEE TCE</strong>.
-
-  - date: Nov. 2023
-    msg: I got an invitation to be a peer reviewer for the <a href=https://www2.cloud.editorialmanager.com/jnca/default.aspx>JNCA</a>.
-    
+   
   - date: Nov. 2023
     msg: Our paper on improving blockchain performance has been accepted by <strong>JNCA</strong>.
 

@@ -1,5 +1,5 @@
 main:
-  - title: "Index"
+  - title: "Home"
     url: ./
     toggle: none
 
@@ -16,7 +16,7 @@ main:
   #   toggle: none
   #   right: true 
 
-  #- title: "Services"
+  # - title: "Services"
   #  url: ./#services
   #  toggle: none  
 
